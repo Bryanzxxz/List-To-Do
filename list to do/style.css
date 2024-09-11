@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.sla{
+    display: grid;
+    justify-content: center;
+}
+
+section{
+    margin-top: 10%;
+    width: 600px;
+    background-color: rgb(253, 252, 238);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.txt{
+    display: flex;
+    gap: 90px;
+}
+
+.txt input{
+    font-size: 18px;
+    
+}
+
+.txt button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+#pesquisar{
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+#botao{
+    color: white;
+    padding: 6px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255);
+}
+
+.checked {
+    background-color: #d4edda; /* Cor de fundo verde claro */
+    text-decoration: line-through; /* Texto com linha através */
+    color: #155724; /* Cor do texto verde escuro */
+}
+
+
+#res ul li{
+    display: flex;
+    background-color: white;
+    border: solid 3px black;
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 39px;
+    padding: 0px 40px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-break: break-all;
+   
+   
+}
+
+#res ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#listalegal li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    
+     
+}
+
+
+.botões{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 15px;
+    align-items: center ;
+    margin-left: 20%;
+    
+}
+
+.botões button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.botões button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+
+@media screen and (max-width: 1020px){
+    section{
+        display: flex;
+        width: 400px;
+        justify-content: center;
+    }
+
+
+    .txt{
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #res ul li{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center
+        
+    }
+
+
+    .botões {
+        margin-right: 12px;
+    }
+}
+
+
+
+
+
+
